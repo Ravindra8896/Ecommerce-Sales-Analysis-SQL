@@ -51,6 +51,9 @@ Top Category (dynamic based on filters)
 📊 Category-wise Revenue
 📈 Daily Sales Trend
 📉 7-Day Moving Average Trend
+7 Day Moving Avg = 
+AVERAGEX(DATESINPERIOD(final_amazon_sales[order_date],MAX(final_amazon_sales[order_date]),-7,DAY),[Total Revenue])
+    
 📍 Top States by Revenue
 📦 Order Status Distribution
 🔹 Filters (Slicers)
@@ -59,15 +62,15 @@ State Filter
 Category Filter
 📈 Key Insights
 🏆 Top Category: Set contributes highest revenue
-📍 Top State: Maharashtra leads in sales
+📍 Top State: Maharashtra leads in sales by 13M+ 
 📉 Sales peak observed in April, followed by gradual decline
 ✅ Majority of orders are successfully delivered
 🤖 Machine Learning (Bonus)
 Built a Linear Regression model for sales prediction
 Applied feature engineering (lag features, rolling mean)
 Evaluated using:
-MAE
-RMSE
+MAE: 73,853
+RMSE: 111,921 
 📸 Dashboard Preview
 
 <img width="1312" height="736" alt="image" src="https://github.com/user-attachments/assets/85b181e8-40f1-48f4-91a7-6f84dfcbe2e7" />
