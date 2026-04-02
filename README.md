@@ -1,71 +1,99 @@
-📊 E-Commerce Sales Data Analysis
-🚀 Project Overview
+🚀 E-Commerce Sales Performance Dashboard
+📌 Project Overview
 
-This project focuses on analyzing an E-commerce dataset to extract meaningful business insights using SQL, Python, and Data Visualization techniques.
-
-The goal is to understand sales performance, customer behavior, and operational efficiency to support data-driven decision-making.
+This project presents a complete end-to-end data analysis and visualization solution for an e-commerce business.
+The goal is to extract meaningful insights from raw sales data and build an interactive dashboard to support business decision-making.
 
 🎯 Objectives
 Analyze overall sales performance
-Identify top-performing categories and regions
-Track monthly revenue trends
-Evaluate order delivery and cancellation patterns
-Create business-focused KPIs
-📂 Dataset Information
-Source: Amazon Sales Dataset
-Total Records: 128,000+
-Features: Orders, Revenue, Category, State, Status, Quantity, Dates
-🛠️ Tools & Technologies Used
-Python (Pandas, Matplotlib)
-SQL (Data Analysis & KPI creation)
-Excel (Initial data exploration)
-🧹 Data Cleaning & Preprocessing
+Identify top-performing categories and states
+Track order trends over time
+Monitor delivery and cancellation rates
+Build an interactive dashboard for dynamic filtering
+🛠️ Tech Stack
+Python (Pandas, NumPy, Matplotlib)
+SQL (Data extraction & KPI creation)
+Power BI (Dashboard & visualization)
+Excel (Initial data cleaning)
+📂 Dataset
+~128K+ records
+Includes:
+Order details
+Category & product info
+Revenue (Amount)
+Order status
+Shipping location
+🔧 Data Processing Steps
+1️⃣ Data Cleaning
 Handled missing values
-Converted date formats into proper datetime
-Removed irrelevant columns (ASIN, postal code, etc.)
 Standardized column names
-Converted data types for accurate analysis
-⚙️ Feature Engineering
+Converted date formats
+Removed unnecessary columns
+2️⃣ Feature Engineering
+Created:
+year, month, day_name
+is_delivered, is_cancelled
+order_value_type (High/Low value orders)
+3️⃣ KPI Creation
 
-Created new features to enhance analysis:
+Key business metrics:
 
-📅 year, month, day_name → Time-based analysis
-💰 order_value_type → Low / Medium / High value orders
-🚚 is_delivered → Delivery success flag
-❌ is_cancelled → Cancellation flag
-📊 Key Performance Indicators (KPIs)
 💰 Total Revenue
 📦 Total Orders
-💳 Average Order Value (AOV)
+🚚 Delivery Rate
 ❌ Cancellation Rate
-🏆 Top Category by Revenue
-🌍 Top State by Revenue
-📈 Visual Insights
-📊 Sales by Category
+🏆 Top Category (Dynamic KPI)
+📊 Dashboard Features
+🔹 KPI Cards
+Revenue, Orders, Delivery %, Cancellation %
+Top Category (dynamic based on filters)
+🔹 Visualizations
+📊 Category-wise Revenue
+📈 Daily Sales Trend
+📉 7-Day Moving Average Trend
+📍 Top States by Revenue
+📦 Order Status Distribution
+🔹 Filters (Slicers)
+Date Filter
+State Filter
+Category Filter
+📈 Key Insights
+🏆 Top Category: Set contributes highest revenue
+📍 Top State: Maharashtra leads in sales
+📉 Sales peak observed in April, followed by gradual decline
+✅ Majority of orders are successfully delivered
+🤖 Machine Learning (Bonus)
+Built a Linear Regression model for sales prediction
+Applied feature engineering (lag features, rolling mean)
+Evaluated using:
+MAE
+RMSE
+📸 Dashboard Preview
 
-📈 Monthly Revenue Trend
+<img width="1312" height="736" alt="image" src="https://github.com/user-attachments/assets/85b181e8-40f1-48f4-91a7-6f84dfcbe2e7" />
 
-📦 Orders by Status
 
-🌍 Top States by Revenue
+💡 Learnings
+End-to-end data analysis workflow
+Data cleaning & feature engineering
+KPI design for business insights
+Building interactive dashboards in Power BI
+Applying machine learning for forecasting
+👨‍💻 Author
 
-💰 Revenue by Order Value Type
+Ravindra Kanojiya
+Aspiring Data Analyst
 
-🚚 Delivery vs Cancellation
+🔗 Connect with Me
+LinkedIn: www.linkedin.com/in/ravindra-a55b28220
 
-💡 Business Insights
-📌 Certain categories contribute the majority of total revenue
-📌 Sales show clear monthly trends indicating seasonality
-📌 Most orders are successfully delivered, showing operational efficiency
-📌 A small percentage of cancellations impacts overall revenue
-📌 High-value orders significantly contribute to total revenue
-📌 A few states dominate the overall sales distribution
-🧠 Conclusion
+🚀 Final Note
 
-This project demonstrates how raw data can be transformed into actionable insights using data analysis techniques.
-It highlights the importance of data cleaning, feature engineering, and visualization in solving real-world business problems.
+This project demonstrates my ability to:
 
-🚀 Future Improvements
-Build an interactive dashboard using Power BI
-Perform customer segmentation
-Apply predictive analysis (sales forecasting)
+✔ Work with real-world datasets
+✔ Derive actionable insights
+✔ Build interactive dashboards
+✔ Apply machine learning techniques
+
+💼 Open to Data Analyst opportunities
